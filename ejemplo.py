@@ -301,6 +301,6 @@ def irradiacion(mes):
     return(df)
 
 # If you have polars, then you can use this function
-df = get_dataframe('datos.csv')
+# df = get_dataframe('datos.csv')
 # If polars is not available for you, then you can use the following:
 # df = get_dataframe_no_polars('datos.csv')
